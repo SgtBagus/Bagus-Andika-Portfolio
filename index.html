@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio - Bagus Andika</title>
+    <link rel="shortcut icon" href="images/logos/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendor/uikit/css/uikit.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/uikit/css/components/slideshow.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/uikit/css/components/slidenav.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/shortcodes.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/timeline.css">
+</head>
+
+<body>
+    <header class="tc-header header-style1" id="tc-header">
+        <div class="tc-top-block" data-uk-sticky="{top:-400, animation: 'uk-animation-slide-top'}">
+            <div class="uk-container uk-container-center">
+                <div class="tc-logo uk-hidden-small">
+                    <img src="images/logos/logo.png" alt="logo">
+                </div>
+                <nav class="uk-navbar tc-navbar">
+                    <ul class="uk-navbar-nav uk-hidden-small" data-uk-scrollspy-nav="{closest:'li'}">
+                        <li><a href="#tc-slider" data-uk-smooth-scroll="{offset: 80}">Home</a></li>
+                        <li><a href="#tc-about" data-uk-smooth-scroll="{offset: 80}">About</a></li>
+                        <li><a href="#tc-education" data-uk-smooth-scroll="{offset: 80}">Education</a></li>
+                        <li><a href="#tc-work-experience" data-uk-smooth-scroll="{offset: 80}">Work Experience</a></li>
+                        <li><a href="#tc-project" data-uk-smooth-scroll="{offset: 80}">Project</a></li>
+                    </ul>
+                    <a href="#tc-offcanvas" class="uk-navbar-toggle uk-visible-small tc-off-toggle" data-uk-offcanvas="{mode:'slide'}"></a>
+                    <div class="uk-navbar-content tc-logo uk-visible-small">
+                        <img src="images/logos/logo.png" alt="logo">
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="tc-slider" id="tc-slider">
+        <div class="uk-slidenav-position" data-uk-slideshow="{animation: 'swipe', autoplay: true}">
+            <ul class="uk-slideshow uk-overlay-active uk-slideshow-fullscreen">
+                <li>
+                    <video id="video" preload="metadata">
+                        <source src="video/playback.mp4" type="video/mp4">
+                    </video>
+                    <div class="uk-overlay-panel uk-flex uk-flex-center uk-text-center uk-flex-middle uk-container uk-container-center">
+                        <div style="text-shadow: 2px 4px 3px rgba(0,0,0,0.3);">
+                            <h3 class="sldr-title-large white-color bold-font">Hi, I'm Bagus Andika</h3>
+                            <p class="sldr-para25 white-color">
+                                With 5+ years in IT, I specialize in creating engaging websites and delivering tailored IT solutions to drive impactful results.
+                            </p>
+                            <div class="spacer2"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="down-arrow pulse-infinite">
+                <a href="#tc-about" data-uk-smooth-scroll="{offset: 80}"><i class="uk-icon-long-arrow-down"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <main class="tc-main" id="tc-main">
+        <section class="tc-about sec-spacer" id="tc-about">
+            <div class="uk-container-center uk-container">
+                <div class="uk-grid" data-uk-grid-margin>
+                    <div class="uk-width-medium-1-2">
+                        <figure class="uk-overlay uk-overlay-hover profile-img">
+                            <img src="images/about/1.jpg" alt="About Photo">
+                        </figure>
+                    </div>
+                    <div class="uk-width-medium-1-2">
+                        <h2 class="title1 uk-margin-remove-top mb30">
+                            Experience working as <br />
+                            <strong> Web Developer</strong>
+                        </h2>
+                        <p>
+                            “Failure is not the opposite of success: it’s part of success.” - Arianna Huffington.
+                        </p>
+                        <p class="mt30 mb30">
+                            Welcome to my portfolio! With 5 years of experience in web development, I bring expertise in ReactJS, CI, HTML, JavaScript, CSS, and beyond. I craft responsive, engaging websites that not only meet but exceed expectations. Dive in to explore my work and see how we can transform your digital ideas into reality!
+                        </p>
+                        <h5 class="title1 uk-margin-remove-top mb30">
+                            <small>
+                                <strong>Contact Me: </strong>
+                                <br />
+                                <strong>Email : </strong> procw57@gmail.com
+                                <br />
+                                <strong>Phone : </strong> (+62)895-8071-62264
+                                <br />
+                                <strong>LinkedIn : </strong> <a href="https://www.linkedin.com/in/bagus-andika/" target="_blank"> Bagus Andika</a>
+                            </small>
+                        </h5>
+                        <a href="#tc-project-and-work" class="readon pill" data-uk-smooth-scroll="{offset: 80}">Check My Project and Work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tc-works portfolio-style1" id="tc-education">
+            <div class="uk-container uk-container-center">
+                <h1 class="title1 title-center uk-margin-top-remove mb60">My Education</h1>
+            </div>
+
+            
+            <div class="container py-5 rounded-circle">
+                <div class="main-timeline-2">
+                    <div class="timeline-2 left-2">
+                        <div class="card custom-timeline">
+                        <img src="images/educations/1.jpg" class="card-img-top" alt="Responsive image"  style="object-fit: cover; max-height: 350px;">
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-4">
+                                Bachelor's Degree in Information Technology
+                            </h4>
+                            <p class="text-muted mb-4">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                <b>Institut Asia Malang</b>
+                                <span class="mx-2"> - </span>
+                                <i class="far fa-calendar" aria-hidden="true"></i>
+                                <b>Oct, 2021 - Aug, 2024</b>
+                            </p>
+                            <p class="mb-2">
+                                Graduated with a solid foundation in Information Technology, focusing on software development, system design, and IT solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-timeline-2">
+                <div class="timeline-2 right-2">
+                    <div class="card custom-timeline">
+                    <img src="images/educations/2.jpg" class="card-img-top" alt="Responsive image"  style="object-fit: cover; max-height: 350px;">
+                    <div class="card-body p-4">
+                        <h4 class="fw-bold mb-4">
+                            Associate Degree in Software Engineering
+                        </h4>
+                        <p class="text-muted mb-4">
+                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            <b>SMK PGRI 03 Tlogomas Malang</b>
+                            <span class="mx-2"> - </span>
+                            <i class="far fa-calendar" aria-hidden="true"></i>
+                            <b>Mar, 2015 - Apr, 2018</b>
+                        </p>
+                        <p class="mb-2">
+                            Gained expertise in software engineering, including application development, system analysis, and coding best practices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="tc-works portfolio-style1 sec-color sec-spacer">
+            <div class="uk-container uk-container-center">
+                <h1 class="title1 title-center uk-margin-top-remove mb60">How I am Working</h1>
+                <div class="row">
+                    <div class="col-md-4 col-xs-6 p-1">
+                        <div class="p-item">
+                            <img class="img-portfolio shadow-5 hover-shadow" src="images/portfolio/1.jpg" alt="Portfolio Image">
+                            <div class="p-desc-holder">
+                                <div class="p-top">
+                                    <h3 class="p-title">WORKING WITH REACT JS</h3>
+                                </div>
+                                <div class="p-bottom">
+                                    <span>
+                                        <ui> Working with React Js Including
+                                            <li>Frontend Developer</li>
+                                            <li>Making a Functional Components</li>
+                                            <li>Familiar working with JSON RestAPI</li>
+                                        </ui>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6 p-1">
+                        <div class="p-item">
+                            <img class="img-portfolio shadow-5 hover-shadow" src="images/portfolio/2.jpg" alt="Portfolio Image">
+                            <div class="p-desc-holder">
+                                <div class="p-top">
+                                    <h3 class="p-title">FAMILIAR WITH CODEIGNITER (CI)</h3>
+                                </div>
+                                <div class="p-bottom">
+                                    <span>
+                                        <ui> Familiar With Codeigniter (CI)
+                                            <li>Develop dynamic and scalable web applications using CodeIgniter</li>
+                                            <li>Optimize existing systems for improved performance and functionality</li>
+                                            <li>Create reusable components and modules to enhance development efficiency for the team</li>
+                                        </ui>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6 p-1">
+                        <div class="p-item">
+                            <img class="img-portfolio shadow-5 hover-shadow" src="images/portfolio/3.jpg" alt="Portfolio Image">
+                            <div class="p-desc-holder">
+                                <div class="p-top">
+                                    <h3 class="p-title">WORKING WITH CSS</h3>
+                                </div>
+                                <div class="p-bottom">
+                                    <span>
+                                        <ui> Including
+                                            <li>Familiar with Less</li>
+                                            <li>Familiar with Bootstrap</li>
+                                            <li>Convert figma design to a working Website including UI/UX</li>
+                                        </ui>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tc-works portfolio-style1" id="tc-work-experience">
+            <div class="uk-container uk-container-center">
+                <h1 class="title1 title-center uk-margin-top-remove mb60">My Work Experience Timeline</h1>
+                <div class="container py-5 rounded-circle">
+                    <div class="main-timeline-2">
+                        <div class="timeline-2 left-2">
+                            <div class="card custom-timeline">
+                            <img src="images/logos/work-logo-1.png" class="card-img-top" alt="Responsive image">
+                            <div class="card-body p-4">
+                                <h4 class="fw-bold mb-4">
+                                    Becoming a permanent employee at PT Majoo Teknologi Indonesia
+                                </h4>
+                                <p class="text-muted mb-4">
+                                    <i class="far fa-calendar" aria-hidden="true"></i>
+                                    <b>Nov, 2021 - Jun, 2023</b>
+                                </p>
+                                <p class="mb-2">
+                                    I am entrusted with various responsibilities, primarily focusing on project features and enhancing product menus. I am actively involved in developing and maintaining both the Client Dashboard and Internal Dashboard also for Portal Website, utilizing React JS and several Node modules. During this period, I am also dedicated to improving my expertise in Unit Testing, a crucial aspect that I believe should be implemented effectively.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-timeline-2">
+                    <div class="timeline-2 right-2">
+                        <div class="card custom-timeline">
+                        <img src="images/logos/work-logo-1.png" class="card-img-top" alt="Responsive image">
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-4">
+                                Starting work as a contract employee at PT Majoo Teknologi Indonesia.
+                            </h4>
+                            <p class="text-muted mb-4">
+                                <i class="far fa-calendar" aria-hidden="true"></i>
+                                <b>Nov, 2019 - Nov, 2021</b>
+                            </p>
+                            <p class="mb-2">
+                                I embarked on this position with a contractual agreement, and throughout my tenure, I have gained a profound understanding of the ReactJS framework and various node modules. Additionally, I have been entrusted with the responsibility of handling minor enhancements, including bug fixes and the implementation of new features.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-timeline-2">
+                    <div class="timeline-2 left-2">
+                        <div class="card custom-timeline">
+                        <img src="images/logos/work-logo-2.png" class="card-img-top" alt="Responsive image">
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-4">
+                                Working as a Freelance Fullstack Developer for CV Karya Studio
+                            </h4>
+                            <p class="text-muted mb-4">
+                                <i class="far fa-calendar" aria-hidden="true"></i>
+                                <b>Feb, 2019 - Nov, 2019</b>
+                            </p>
+                            <p class="mb-2">
+                                I work as a freelance full-stack developer, specializing in the CodeIgniter framework. I am entrusted with significant responsibilities, delivering client projects within a strict time frame of less than two weeks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-timeline-2">
+                    <div class="timeline-2 right-2">
+                        <div class="card custom-timeline">
+                        <img src="images/logos/work-logo-3.png" class="card-img-top" alt="Responsive image" style="object-fit: cover;">
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-4">
+                                Starting work as a Web Developer at PT BITS Miliartha
+                            </h4>
+                            <p class="text-muted mb-4">
+                                <i class="far fa-calendar" aria-hidden="true"></i>
+                                <b>Nov, 2018 - Nov, 2019</b>
+                            </p>
+                            <p class="mb-2">
+                                I am employed in this company as a web developer, utilizing the Yii1 framework. Throughout my one-year tenure, I have been entrusted with responsibilities such as enhancements, developing new features, and creating plugins to meet the client's product requirements.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tc-counter counter-style1 sec-color sec-spacer bg3">
+            <div class="uk-container uk-container-center">
+                <div class="uk-contrast" data-uk-grid-margin="">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="counter" data-from="0" data-to="24" data-speed="5000" data-refresh-interval="50"></div>
+                            <h2 class="counter-title">My Age</h2>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="counter" data-from="0" data-to="5" data-speed="5000" data-refresh-interval="50"></div>
+                            <h2 class="counter-title"><strong>Year's</strong> of Experience</h2>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="counter" data-from="0" data-to="38" data-speed="5000" data-refresh-interval="50"></div>
+                            <h2 class="counter-title"><strong>Project Done</strong></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tc-works portfolio-style1 sec-color sec-spacer" id="tc-project">
+            <div class="uk-container uk-container-center">
+                <h1 class="title1 title-center uk-margin-top-remove mb60">My Work Experience</h1>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h4 class="p-title">
+                                My Own Project
+                            </h4>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 col-xs-6 p-1">
+                                <a href="https://github.com/SgtBagus/depresion-chatbot" target="_blank">
+                                    <div class="p-item">
+                                        <img class="img-portfolio shadow-5 hover-shadow" src="images/portfolio/9.jpg" alt="Portfolio Image">
+                                        <div class="p-desc-holder">
+                                            <div class="p-top">
+                                                <h3 class="p-title">
+                                                    <div class="text-center">
+                                                        NLP-Based Chatbot for Mental Health Assessment (DASS-42)
+                                                    </div>
+                                                    <hr />
+                                                    <div class="open-porject-link mb-3">
+                                                        <b class="text-dark">Project Access: </b>
+                                                        <div class="col-md-12">
+                                                            <a href="https://github.com/SgtBagus/depresion-chatbot" target="_blank">
+                                                                <img class="apps-icon" src="images/logos/git-hub.png" >
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </h3>
+                                            </div>
+                                            <div class="p-bottom">
+                                                <span>
+                                                    <ui> NLP-Based Chatbot for Mental Health Assessment (DASS-42)
+                                                        <li>Assesses mental health through an interactive chatbot.</li>
+                                                        <li>ReactJS for UI, Firebase for real-time database.</li>
+                                                        <li>Uses NLP for conversational, human-like interactions.</li>
+                                                    </ui>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>  
+                            <div class="col-md-4 col-xs-6 p-1">
+                                <a href="https://github.com/SgtBagus/TA-Perpustakaan-SMK-PGRI-3-malang-Web-" target="_blank">
+                                    <div class="p-item">
+                                        <img class="img-portfolio shadow-5 hover-shadow" src="images/portfolio/8.jpg" alt="Portfolio Image">
+                                        <div class="p-desc-holder">
+                                            <div class="p-top">
+                                                <h3 class="p-title">
+                                                    <div class="text-center">
+                                                        Library Catalog Information System at SMK PGRI 03 Malang
+                                                    </div>
+                                                    <hr />
+                                                    <div class="open-porject-link mb-3">
+                                                        <b class="text-dark">Project Access: </b>
+                                                        <div class="col-md-12">
+                                                            <a href="https://github.com/SgtBagus/TA-Perpustakaan-SMK-PGRI-3-malang-Web-" target="_blank">
+                                                                <img class="apps-icon" src="images/logos/git-hub.png" >
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </h3>
+                                            </div>
+                                            <div class="p-bottom">
+                                                <span>
+                                                    <ui> Library Catalog Information System at SMK PGRI 03 Malang
+                                                        <li>Manages book catalogs, borrowing, and returns.</li>
+                                                        <li>PHP native, MySQL database.</li>
+                                                        <li>Streamlined book search and borrowing system.</li>
+                                                    </ui>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="https://majoo.id/" target="_blank">
+                            <img class="work-logo my-3" src="images/logos/work-logo-1.png" alt="Portfolio Image">
+                        </a>
+                        <div class="text-center">
+                            <h4 class="p-title">
+                                <b> 4 Years </b>Working at PT Majoo Teknologi Indonesia as a <b>Frontend Developer</b> with <b>React JS</b>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-6 p-1">
+                                <a href="https://dashboard.majoo.id" target="_blank">
+                                    <div class="p-item">
+                                        <img class="img-portfolio shadow-5 hover-shadow" src="images/portfolio/4.jpg" alt="Portfolio Image">
+                                        <div class="p-desc-holder">
+                                            <div class="p-top">
+                                                <h3 class="p-title">
+                                                    <div class="text-center">
+                                                        Maintenance and Create new Feature
+                                                        <br /> for Client Dashboard
+                                                    </div>
+                                                    <hr />
+                                                    <div class="open-porject-link mb-3">
+                                                        <b class="text-dark">Link Access: </b>
+                                                        <small>https://dashboard.majoo.id</small>
+                                                    </div>
+                                                </h3>
+                                            </div>
+                                            <div class="p-bottom">
+                                                <span>
+                                                    <ui> Maintenance Client Dashboard
+                                                        <li>Help Create a new Feature</li>
+                                                        <li>Maintenace bug and make a better performance</li>
+                                                        <li>Create a Unit Testing for a new components</li>
+                                                    </ui>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xs-6 p-1">
+                                <div class="p-item">
+                                    <img class="img-portfolio shadow-5 hover-shadow" src="images/portfolio/5.jpg" alt="Portfolio Image">
+                                    <div class="p-desc-holder">
+                                        <div class="p-top">
+                                            <h3 class="p-title">
+                                                <div class="text-center">
+                                                    Maintenance and Create new Feature
+                                                    <br /> for Internal Dashboard
+                                                </div>
+                                                <hr />
+                                                <div class="open-porject-link mb-3">
+                                                    <b class="text-dark">Link Access: </b>
+                                                    <small>*not for public access</small>
+                                                </div>
+                                            </h3>
+                                        </div>
+                                        <div class="p-bottom">
+                                            <span>
+                                                <ui> Maintenance Internal Dashboard
+                                                    <li>Create a new Feature</li>
+                                                    <li>Maintenace bug and make a better performance</li>
+                                                    <li>Join as Fast Operasion Team</li>
+                                                </ui>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xs-6 p-1">
+                                <a href="https://majoo.id/" target="_blank">
+                                    <div class="p-item">
+                                        <img class="img-portfolio shadow-5 hover-shadow" src="images/portfolio/6.jpg" alt="Portfolio Image">
+                                        <div class="p-desc-holder">
+                                            <div class="p-top">
+                                                <h3 class="p-title">
+                                                    <div class="text-center">
+                                                        Convert Figma design to functional Portal website.
+                                                    </div>
+                                                    <hr />
+                                                    <div class="open-porject-link mb-3">
+                                                        <b class="text-dark">Link Access: </b>
+                                                        <small>https://majoo.id/</small>
+                                                    </div>
+                                                </h3>
+                                            </div>
+                                            <div class="p-bottom">
+                                                <span>
+                                                    <ui> Portal Website
+                                                        <li>Working with Codeigniter</li>
+                                                        <li>Working with Less</li>
+                                                        <li>Create a Functional Portal Menu</li>
+                                                    </ui>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="https://karyastudio.com/" target="_blank">
+                            <img class="work-logo my-3" src="images/logos/work-logo-2.png" alt="Portfolio Image">
+                        </a>
+                        <div class="text-center">
+                            <h4 class="p-title">
+                                <b> 5 Months </b>Working as a Freelance of CV Karya Studi as a <b>FullStack Developer</b> with <b>Codeigniter</b> and <b>MySql</b> For Databases
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-6 p-1">
+                                <div class="p-item">
+                                    <img class="img-portfolio shadow-5 hover-shadow" src="images/logos/projects/nso-project.png" alt="Portfolio Image">
+                                    <div class="p-desc-holder">
+                                        <div class="p-top">
+                                            <h3 class="p-title">
+                                                <div class="text-center">
+                                                    Never Say Old
+                                                    <br />
+                                                    <small>
+                                                        <b> 4 Weeks </b> Working Project
+                                                    </small>
+                                                </div>
+                                                <hr />
+                                                <div class="row">
+                                                    <div class="col-md-12 text-center">
+                                                        <b class="text-dark">Project Access: </b>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <a href="https://play.google.com/store/apps/details?id=com.karyastudioteknologidigital.nsoproject&hl=in&gl=US" target="_blank">
+                                                                    <img class="apps-icon" src="images/logos/google-play.png" >
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <a href="https://apps.apple.com/id/app/nso-project/id1485962890" target="_blank">
+                                                                    <img class="apps-icon" src="images/logos/app-store.png" >
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </h3>
+                                        </div>
+                                        <div class="p-bottom">
+                                            <span>
+                                                <ui> <b>4 Weeks</b> Working Project
+                                                    <li>Mobile Responsive View</li>
+                                                    <li>Using <b>Mysql</b> Databases</li>
+                                                    <li>Use Multi Role in One Apps</li>
+                                                </ui>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xs-6 p-1">
+                                <div class="p-item">
+                                    <img class="img-portfolio shadow-5 hover-shadow" src="images/logos/projects/sayhalal.png" alt="Portfolio Image">
+                                    <div class="p-desc-holder">
+                                        <div class="p-top">
+                                            <h3 class="p-title">
+                                                <div class="text-center">
+                                                    Say Halal
+                                                    <br />
+                                                    <small>
+                                                        <b> 2 Weeks </b> Working Project
+                                                    </small>
+                                                </div>
+                                                <hr />
+                                                <div class="row" style="margin-bottom: 12px;">
+                                                    <div class="col-md-12 text-center">
+                                                        <b class="text-dark">Project Access: </b>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <small>
+                                                            *Regrettably, I am unable to provide the link to the mentioned project
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </h3>
+                                        </div>
+                                        <div class="p-bottom">
+                                            <span>
+                                                <ui> <b>2 Weeks</b> Working Project
+                                                    <li>Mobile Responsive View</li>
+                                                    <li>Using <b>Mysql</b> Databases</li>
+                                                    <li>Use Multi Role in One Website</li>
+                                                </ui>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xs-6 p-1">
+                                <div class="p-item">
+                                    <img class="img-portfolio shadow-5 hover-shadow" src="images/logos/projects/desktop.jpg" alt="Portfolio Image">
+                                    <div class="p-desc-holder">
+                                        <div class="p-top">
+                                            <h3 class="p-title">
+                                                <div class="text-center">
+                                                    Several Other Projects <i class="fa fa-plus"></i> 
+                                                    <br />
+                                                    <small>
+                                                        <b> 2 Weeks </b> Working Project
+                                                    </small>
+                                                </div>
+                                                <hr />
+                                                <div class="row" style="margin-bottom: 12px;">
+                                                    <div class="col-md-12 text-center">
+                                                        <b class="text-dark">Project Access: </b>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <small>
+                                                            *Regrettably, I am unable to provide the link to the mentioned project
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </h3>
+                                        </div>
+                                        <div class="p-bottom">
+                                            <span>
+                                                <ui> <b>2 Weeks</b> Working Project
+                                                    <li>Mobile Responsive View</li>
+                                                    <li>Using <b>Mysql</b> Databases</li>
+                                                    <li>Use Multi Role in One Website</li>
+                                                </ui>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="https://www.bits-soft.com/" target="_blank">
+                            <img class="work-logo my-3" src="images/logos/work-logo-3.png" alt="Portfolio Image">
+                        </a>
+                        <div class="text-center">
+                            <h4 class="p-title">
+                                <b> 1 Year </b>Working at PT BITS Miliartha as a <b>Web Developer</b>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 p-1">
+                                <div class="p-item">
+                                    <img class="img-portfolio shadow-5 hover-shadow" src="images/bee-desktop.png" alt="Portfolio Image">
+                                    <div class="p-desc-holder">
+                                        <div class="p-top">
+                                            <h3 class="p-title">
+                                                <div class="text-center">
+                                                    Maintenance and Create new Feature
+                                                    <br /> for Client Dashboard
+                                                </div>
+                                                <hr />
+                                                <div class="open-porject-link mb-3">
+                                                    <b class="text-dark">Link Access: </b>
+                                                    <small>*not for public access</small>
+                                                </div>
+                                            </h3>
+                                        </div>
+                                        <div class="p-bottom">
+                                            <span>
+                                                <ui> Maintenance Client Dashboard
+                                                    <li>Help Create a new Feature</li>
+                                                    <li>Maintenace bug and make a better performance</li>
+                                                    <li>Create new components for a better Working Performance</li>
+                                                </ui>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-6 p-1">
+                                <div class="p-item">
+                                    <img class="img-portfolio shadow-5 hover-shadow" src="images/plugin.jpg" alt="Portfolio Image">
+                                    <div class="p-desc-holder">
+                                        <div class="p-top">
+                                            <h3 class="p-title">
+                                                <div class="text-center">
+                                                    Maintenance Plugin and Create new Plugin
+                                                    <br /> for Client Dashboard
+                                                </div>
+                                                <hr />
+                                                <div class="open-porject-link mb-3">
+                                                    <b class="text-dark">Link Access: </b>
+                                                    <small>*not for public access</small>
+                                                </div>
+                                            </h3>
+                                        </div>
+                                        <div class="p-bottom">
+                                            <span>
+                                                <ui> Maintenance Internal Dashboard
+                                                    <li>Create a new Plugin</li>
+                                                    <li>Maintenace bug and make a better performance</li>
+                                                    <li>Make a Unit Testing for Plugin</li>
+                                                </ui>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <div id="tc-offcanvas" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+            <ul class="uk-nav uk-nav-offcanvas" data-uk-scrollspy-nav="{closest:'li'}">
+                <li><a href="#tc-slider" data-uk-smooth-scroll="">Home</a></li>
+                <li><a href="#tc-about" data-uk-smooth-scroll="{offset: 80}">About</a></li>
+                <li><a href="#tc-work" data-uk-smooth-scroll="{offset: 80}">Work</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="vendor/uikit/js/uikit.min.js"></script>
+    <script src="vendor/uikit/js/components/slideshow.min.js"></script>
+    <script src="vendor/uikit/js/components/lightbox.min.js"></script>
+    <script src="vendor/uikit/js/components/sticky.min.js"></script>
+    <script src="vendor/uikit/js/components/grid.min.js"></script>
+    <script src="vendor/counter/jquery.countTo.js"></script>
+
+    <script src="js/contact.form.js"></script>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
